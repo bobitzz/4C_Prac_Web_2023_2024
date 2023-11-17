@@ -1,0 +1,3 @@
+Switch jest lepszy niż if do budowy menu z wieloma opcjami ze względu na czytelność i efektywność.
+Umożliwiając grupowanie przypadków i zwięzłe zapisywanie kodu. Jednak wybór między nimi zależy
+od konkretnego przypadku i wymagań projektu.
