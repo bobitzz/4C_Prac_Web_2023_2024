@@ -1,0 +1,3 @@
+Pętle są niezwykle przydatne dla programistów z kilku powodów. Pozwalają na efektywne powtarzanie bloków kodu,
+co zwiększa czytelność i skraca programy. Dzięki nim można łatwo obsługiwać zbiory danych, prztwarzać je i automatyzować
+zadania co przekłada się na oszczeędność czasu i zwiększenie efektywności programowania.
