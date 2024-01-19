@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>test</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <h2>Formularz rejestracyjny do szkoły</h2>
+            <form action="zadanie.php" method="post">
+                <p>Formularz kontaktowy:</p>
+                Nazwisko:<br>
+                <input type="text" name="surname" value=" " size="30"><br>
+                Imię:<br>
+                <input type="text" name="name" value=" " size="30"><br>
+                Wiek:<br>
+                <input type="number" name="age" value=" " size="2"><br>
+                Adres:<br>
+                <input type="text" name="address" value=" " size="30"><br>
+                Numer kontaktowy:<br>
+                <input type="number" name="number" value=" " maxlength="9"><br>
+                Adres e-mail:<br>
+                <input type="text" name="mail" value=" " size="30"><br><br>
+
+                <input type="checkbox" name="opcje" maxlength="1">
+                Zgadzam się na przetwarzanie moich danych osobowych<br><br>
+                <input type="submit" value="send" name="send">&nbsp; &nbsp;
+                <input type="reset" value="clear" name="zeruj">
+            </form>
+        </body>
+    </html>

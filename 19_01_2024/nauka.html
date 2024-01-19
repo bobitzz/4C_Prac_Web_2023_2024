@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>nauka</title>
+            <meta charset="UTF-8">
+        </head>
+        <body>
+            <form action="nauka.php" method="post">
+                <p>Formularz kontaktowy:</p>
+                Nazwisko:<br>
+                <input type="text" name="surname" value=" " size="30"><br>
+                Name:<br>
+                <input type="text" name="name" value=" " size="30"><br>
+                Zawód:<br>
+                <input type="text" name="job" value=" " size="30"><br>
+                Adres e-mail:<br>
+                <input type="text" name="mail" value=" " size="30">
+
+                <p id="wyk">Wykształcenie</p>
+                <input type="radio" value="podstawowe" name="wykszt" checked> Podstawowe<br>
+                <input type="radio" value="srednie" name="wykszt"> Średnie<br>
+                <input type="radio" value="wyzsze" name="wykszt"> Wyższe<br><br>
+
+                <input type="checkbox" name="opcje" maxlength="1">
+                Zgadzam się na przetwarzanie moich danych osobowych<br><br>
+                <input type="submit" value="send" name="send">&nbsp; &nbsp;
+                <input type="reset" value="clear" name="zeruj">
+            </form>
+        </body>
+    </html>
