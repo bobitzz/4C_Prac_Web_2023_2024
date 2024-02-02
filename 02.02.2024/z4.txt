@@ -1,0 +1,4 @@
+Zawartość pola adres z zadamia 2: http://localhost/02.02.2024/z2.php?name=Aleksander&surname=Hory%26%23324%3B
+Zawartość pola adres z zadamia 3: http://localhost/02.02.2024/z3.php
+
+Używając metody GET wszystkie dane które są przesyłane są widoczne w pasku adresu, więc przy przesyłaiu np danych poufnych lepsza jest metoda POST. 

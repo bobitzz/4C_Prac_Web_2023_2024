@@ -1,0 +1,6 @@
+Metoda Get
+    Wady: Ograniczona ilość danych, ponieważ parametry są przekazywane w adresie URL, co może prowadzić do problemów.
+    Zalety: Prosta w implementacji i zrozumiała, używana do przesyłanai danych przez URL.
+Metoda Post
+    Wady: Skomplikowana w implementacji w porównaniu z metodą Get.
+    Zalety: Pozwala na przesyłanie większej ilości danych, ponieważ przekazywane są HTTP.
