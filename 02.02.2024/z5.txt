@@ -1,3 +1,5 @@
 adres strony z kodem: http://funkcje.net/view/2/8/2644/index.html
 używana metoda wysyłania: POST
-rozszerzenie pliku przekazywancyh
+rozszerzenie pliku przekazywancyh: PHP
+typ pól: "text", "submit"
+liczba pól: 2
