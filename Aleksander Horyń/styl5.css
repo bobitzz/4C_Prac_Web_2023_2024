@@ -1,0 +1,65 @@
+* {
+    font-family: Tahoma;
+}
+
+#baner {
+    display: flex;
+    flex-direction: row;
+}
+
+#blok {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-top, .right-top {
+    background-color: #003d33;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
+
+.left-top {
+    width: 70%;
+}
+
+.right-top {
+    width: 30%;
+}
+
+.left-down, .right-down {
+    background-color: #26a69a;
+    height: 550px;
+}
+
+.left-down {
+    width: 30%;
+}
+
+.right-down {
+    width: 70%;
+}
+
+footer {
+    background-color: #003d33;
+    color: white;
+}
+
+.wizytowka {
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    border: 1px solid #003d33;
+}
+
+.button {
+    background: #003d33;
+    color: white;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+
+.button:hover{
+    background-color: #004c40;
+}
