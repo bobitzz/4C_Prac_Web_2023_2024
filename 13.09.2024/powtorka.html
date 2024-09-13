@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>Powtórka</title>
+        <style>
+            * {
+                line-height: 145%;
+            }
+        </style>
+    </head>
+    <body id="body">
+        <form name="formularz">
+            <label for="name">Imię:</label>
+            <input type="text" id="name"><br>
+            <label for="name">Nazwisko:</label>
+            <input type="text" id="surname"><br>
+            <label for="name">Wiek:</label>
+            <input type="number" id="age"><br>
+            <label for="name">Miasto:</label>
+            <input type="text" id="city"><br><br>
+
+            <label for="background-color">Wybierz kolor tła: </label><br>
+            <input type="radio" id="aqua" name="background-color" value="aqua" onclick="ChangeBackground('aqua')">aqua</input>
+            <input type="radio" id="coral" name="background-color" value="coral" onclick="ChangeBackground('coral')">coral</input>
+            <input type="radio" id="teal" name="background-color" value="teal" onclick="ChangeBackground('teal')">teal</input>
+            <input type="radio" id="tomato" name="background-color" value="tomato" onclick="ChangeBackground('tomato')">tomato</input>
+            <input type="radio" id="bisque" name="background-color" value="bisque" onclick="ChangeBackground('bisque')">bisque</input><br><br>
+
+            <input type="button" value="send" onclick="Send()">
+            <button type="reset">reset</button><br>
+        </form>
+
+        <div id="result"></div>
+
+        <script>
+            function Send(){
+                let name = document.getElementById('name').value;
+                let surname = document.getElementById('surname').value;
+                let age = document.getElementById('age').value;
+                let city = document.getElementById('city').value;
+
+                let adult = age;
+                if(age > 0 && age < 18)
+                    adult = "nie";
+                else if(age >= 18 && age < 125)
+                    adult = "tak";
+                else
+                    adult = "bez przesady";
+
+                document.getElementById("result").innerHTML = "imie i nazwisko: " + name + " " + surname + "<br>pełnoletni: " + adult + "<br>Miasto: " + city;
+            }
+
+            function ChangeBackground(value) {
+                if(value == "aqua") {
+                    document.body.style.backgroundColor='aqua';
+                } else if(value == "coral") {
+                    document.body.style.backgroundColor="coral";
+                } else if(value == "teal") {
+                    document.body.style.backgroundColor="teal";
+                } else if(value == "tomato") {
+                    document.body.style.backgroundColor="tomato";
+                } else if(value == "bisque") {
+                    document.body.style.backgroundColor="bisque";
+                }
+                
+               /*
+                let color = document.body.style.backgroundColor;
+                switch(value)
+                {
+                    case 'aqua':
+                        color = "aqua";
+                        break;
+                    case 'coral':
+                        color = "coral";
+                        break;
+                    case 'teal':
+                        color = "teal";
+                        break;
+                    case 'tomato':
+                        color = "tomato";
+                        break;
+                    case 'bisque':
+                        color = "bisque";
+                        break;
+                    default:
+                        color = "white";
+                }
+                document.body.style.backgroundColor = color;
+                */
+            }
+        </script>
+    </body>
+</html>
