@@ -1,0 +1,12 @@
+Rozpocznij
+Wczytaj(a)
+Wynik<--0
+Dopóki(a = 0)
+{}
+Jeżeli nie
+	{
+	wynik = wynik + a
+	}
+i to do if`a wraca wtedy
+	
+Zakończ

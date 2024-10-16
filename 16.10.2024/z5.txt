@@ -1,0 +1,11 @@
+Rozpocznij
+Wczytaj(a)
+i<--2
+Gdy(a = i)
+{write prawda}
+Jeżeli nie {
+Dopóki reszta z dzielenia a przez i nie jest równa 0 {i<--i + 1}
+jeżeli nie {write fałsz}
+}
+	
+Zakończ

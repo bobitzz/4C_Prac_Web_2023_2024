@@ -1,0 +1,20 @@
+Rozpocznij
+Wczytaj(a)
+Wczytaj(b)
+Wczytaj(c)
+najwieksza<--a
+Dopóki(a > b)
+{
+	Dopóki(a > c)
+	jeżeli nie {najwieksza = c}
+}
+Jeżeli nie
+{
+	Dopóki(b > c)
+	{najwieksza = b}
+	jeżeli nie {najwieksza = c}
+}
+
+
+write najwieksza
+Zakończ

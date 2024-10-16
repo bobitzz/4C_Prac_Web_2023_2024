@@ -1,0 +1,7 @@
+Rozpocznij
+Wczytaj(a)
+Dopóki(reszta z dzielenia a przez 2)
+{write parzysta}
+Jeżeli nie {write nieparzysta}
+	
+Zakończ

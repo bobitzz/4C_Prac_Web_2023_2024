@@ -1,0 +1,12 @@
+Rozpocznij
+Wczytaj(number)
+i<--1
+silnia<--1
+Dopóki(i jest mniejsze bądź równe number)
+{
+silnia<--silnia * i
+i<==i + 1
+}wraca do if`a
+Jeżeli nie {write silnia}
+	
+Zakończ
